@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div class="container aa mt-5  ">
+        <div style=" box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.5), 0 0 25px rgba(0, 0, 0, 0.5), 0 0 5px rgb(0, 0, 0,0.5);max-width:400px; margin:auto;">
+        <div class=" players-label">
+        <p id="player1" >Player1: X </p>
+        <p id="player2">Player2: 0 </p>
+        </div>
+        
+        <div class="mb-3 cd">
+        <div class="first mt-3"> 
+            <div class="l55 line55 abc"></div>
+            <div class="l5 line5 abc"></div>
+            <div class="l1 line1 abc"></div>
+            <div class="l2 line2 abc"></div>
+            <div class="l3 line3 abc"></div>
+            <div class="l4 line4 abc"></div>
+         
+            <div onclick="adaugare(this.id)" id="0" class="a  w-100 text"><img class="yeee"></div>
+            <div onclick="adaugare(this.id)" id="1" class="a border28 w-100 text"><img class="yeee"></div>
+            <div onclick="adaugare(this.id)" id="2" class="a w-100 text"><img class="yeee"></div>
+        </div>
+        <div class="first">  
+            <div  class="l1 line1 abc"></div>
+            <div class="l2 line2 abc"></div>
+            <div  class="l3 line3 abc"></div>
+            <div  class="l4 line4 abc"></div>
+            <div  class="l6 line6 abc"></div>
+            <div  class="l66 line66 abc"></div>
+            <div onclick="adaugare(this.id)" id="3" class="a border46 w-100 text"><img class="yeee"></div>
+            <div onclick="adaugare(this.id)" id="4" class="a border5 w-100 text"><img class="yeee"></div>
+            <div onclick="adaugare(this.id)" id="5" class="a border46 w-100 text"><img class="yeee"></div>
+        </div>
+        <div class="first">    
+            <div  class="l1 line1 abc"></div>
+            <div  class="l2 line2 abc"></div>
+            <div  class="l3 line3 abc"></div>
+            <div  class="l4 line4 abc"></div>
+            <div  class="l7 line7 abc"></div>
+            <div  class="l77 line77 abc "></div>
+            <div onclick="adaugare(this.id)" id="6" class="a w-100 text"><img class="yeee" ></div>
+            <div onclick="adaugare(this.id)" id="7" class="a border28 w-100 text"><img class="yeee"></div>
+            <div onclick="adaugare(this.id)" id="8" class="a w-100 text"><img class="yeee" ></div>    
+        
+        </div>  
+        
+        <button type="button" id="butonRestart" onclick="restart()" class="buton yes mt-4 ">Restart Game</button>
+        <br>
+        <div class="p1">
+        <p1  id="winner" class="p1 mb-5 victorie"> The winner is:</p1>
+        </div>
+        <br>
+    </div> 
+
+
+
+    </div>
+
+    </div>
+   <script>
+    if(contor==0){
+    document.getElementById("player1").style.backgroundColor="#dc3848";
+    
+    }   
+   </script>
+</body>
+</html>
